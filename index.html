@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creative Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="dashboard">
+        <h2>Filter By</h2>
+        <div class="filter-by">
+          <div class="filter-by-color">
+            <h4>color:</h4>
+            <div class="color-palette" id="color-panel"></div>
+          </div>
+          <div class="filter-by-title">
+            <h4>title / subtitle</h4>
+            <input type="text" class="filter-by-text" id="input" />
+          </div>
+        </div>
+        <div class="progress-bar">
+          <progress id="pbar" value="90" max="100"></progress>
+          <div class="progress-bar-text" id="ptext"></div>
+        </div>
+        <button class="cta" id="addCreative">+ Add Creative</button>
+        <div id="creatives"></div>
+      </div>
+
+      <div class="create-creative toggle" id="creativeCreation">
+        <header class="header">
+          <div><h1>Creative Creation</h1></div>
+          <div class="cross" id="close">X</div>
+        </header>
+        <form action="" id="form">
+          <label for="title">title</label><br />
+          <input type="text" id="title" name="title" /><br />
+          <label for="subtutle">subtitle</label><br />
+          <input type="text" id="subtitle" name="subtitle" /><br /><br />
+        </form>
+        <h4>background color</h4>
+        <div class="color-palette color-selection" id="color-panel2"></div>
+        <button class="cta" id="createCreative">Done</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

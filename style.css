@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+.filter-by {
+  display: flex;
+}
+.container {
+  padding: 20px 10px;
+  display: flex;
+}
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.color-palette {
+  display: flex;
+  flex-wrap: wrap;
+}
+.color-palette button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+.filter-by {
+  margin-bottom: 50px;
+}
+.filter-by-color {
+  width: 200px;
+  padding-right: 30px;
+}
+h4 {
+  margin-bottom: 5px;
+}
+.filter-by-text {
+  font-size: 16px;
+}
+
+progress {
+  width: 400px;
+  height: 20px;
+  border-radius: 7px;
+  border: 1px solid black;
+  opacity: 0.85;
+  margin-right: 10px;
+}
+
+progress::-webkit-progress-value {
+  background: black;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-bar {
+  background: white;
+  border-radius: 10px;
+}
+.progress-bar {
+  display: flex;
+  margin-bottom: 20px;
+}
+.cta {
+  background-color: transparent;
+  padding: 10px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  width: 25%;
+}
+.create-creative {
+  padding: 20px 10px;
+  position: relative;
+  width: 40%;
+  height: 100vh;
+}
+.header {
+  display: flex;
+}
+.cross {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  margin-left: 30px;
+  font-size: 32px;
+}
+#form input {
+  width: 70%;
+  margin-bottom: 30px;
+}
+.color-selection {
+  margin-bottom: 50px;
+}
+.create-creative.toggle {
+  display: none;
+}
